@@ -1,0 +1,35 @@
+1. Create a var containing question and answers as array. 
+Each array element is an object -- for every question -- with property "question" and property "answers" as an array of objects -- one object for every answer {answer: xxxxxx, value: true/false}.
+
+Create variables:
+correctAnsCount - contains the number of correct answers
+wrongAnsCount - contains the number of wrong answers
+noAnsCount - contains the number of questions without answer
+
+Create radio buttons for every answer. On button group for each question.
+
+2. Create a function returning the number of selected answer (for each question).
+
+Create the "Start" button.
+
+Create a timer:
+-start by clicking "Start" button.
+-30 sec delay
+
+Create a function which evaluates the value (true of false) of chosen answers. 
+if answer there is an answer {
+if answer is true {correctAnsCount++
+} else {wrongAnsCount++}
+} else {noAnsCount++}
+
+
+Function evalAns() called after the timer stop.
+
+
+
+
+
+
+
+
+
